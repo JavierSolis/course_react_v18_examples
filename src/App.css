@@ -1,5 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
   text-align: center;
+  background: #F5F6FA;
 }
 
 .App-logo {
@@ -40,7 +46,7 @@
 .comments-page{
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 15px;
+  padding-top: 15px;
   background-color: #F5F6F9;
 }
 
@@ -49,7 +55,7 @@
   align-items: flex-start;
   border-radius: 10px;
   background-color: white;
-  border: 1px solid #cecece;
+  /*border: 1px solid #cecece;*/
   box-shadow: 5px 5px 5px #cecece;
   padding-left: 15px;
   padding-top: 15px;
@@ -59,43 +65,43 @@
 }
 
 .vote-comment{
-  display: flex;
-  border-radius: 7px;
-  background-color: #F5F6F9;
-  justify-content: center;
-  width: 20px;
+  background-color: #FF9;
 }
 
 .content-comment{
 }
 .content-top-commet{
   display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
   align-items: stretch;
-  justify-content: center;
+  padding: 10px;
 }
 
 .profile-comment{
+  flex-grow: 1;
   display: flex;
-  align-items:  center;
 }
 .user-comment{
   padding: 7px;
+  font-weight: bold;
 }
 .timeago-comment{
   padding: 7px;
+  color: #7F8083;
 }
 .profile-comment>img{
   width: 40px;
   height: 40px;
 }
-.action-comment{
-  width: 50%;
-}
+
 
 .text-comment{
   display: flex;
   align-items: flex-start;
   justify-content: start;
+  color: #7C7D82;
+  text-align: left;
   padding: 10px;
 }
 

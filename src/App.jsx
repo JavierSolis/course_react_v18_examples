@@ -1,9 +1,13 @@
 import './App.css';
-import FrameWhite from './Components/FrameWhite';
-import CommentCard from './Components/CommentCard';
+
+import CommentCard from './Components/Comment/CommentCard';
 import POWERED_BY from './Modules/ModuleConstantPoweredBy';
 import DATA from './Modules/ModuleData';
+import FrameWhite from "./Components/FrameWhite";
 const DEFAULT_USER={"image":{"png":"/images/avatars/image-amyrobson.png"},"username":"Default user name"}
+
+
+
 function App() {
   return (
     <div className="App">
@@ -20,9 +24,8 @@ function App() {
             </FrameWhite>)
           })
         }
-        
-        
-        <CommentCard 
+
+        <CommentCard
           vote='12'
           user={DEFAULT_USER}
           comment='Fuera del marco'
