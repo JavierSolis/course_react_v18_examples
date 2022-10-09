@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-.App {
+html {
   text-align: center;
-  background: #F5F6FA;
+  background: #F5F6FA;/*--F5F6FA*/
 }
 
 .App-logo {
