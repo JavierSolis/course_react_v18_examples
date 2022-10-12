@@ -27,7 +27,7 @@ const CommentNew=(model:Props)=>{
         else{
             setShowWarning(false)
             //se llama al callback para informar que se agrego un nuevo comentario
-            model.onAdd(e.target.comment.value)
+            model.onAdd(1,e.target.comment.value)
         }
 
         //se resetea los valores del formulario

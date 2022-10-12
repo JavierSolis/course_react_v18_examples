@@ -1,13 +1,13 @@
 import './App.css';
 
-import POWERED_BY from './Modules/ModuleConstantPoweredBy';
-import PageComments from "./Pages/PageComments";
+import POWERED_BY from './Presentation/Modules/ModuleConstantPoweredBy';
+import PageComments from "./Presentation/Pages/PageComments";
 
 function App() {
   return (
     <div className="App">
       <PageComments/>
-      {POWERED_BY} 
+      <POWERED_BY/>
     </div>
   );
 }

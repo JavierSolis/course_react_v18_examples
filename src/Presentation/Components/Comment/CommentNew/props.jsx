@@ -1,4 +1,4 @@
 export interface Props {
-    onAdd(newComment:String): any;
+    onAdd(id:number,newComment:String): any;
     className?:string;
 }
